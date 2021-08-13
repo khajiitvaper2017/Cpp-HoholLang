@@ -1,95 +1,95 @@
-#pragma once
-#define яхохол setlocale(LC_CTYPE, "ukr");
-#define основний main
-#define асемблер asm
-#define сало ;
+п»ї#pragma once
+#define СЏС…РѕС…РѕР» setlocale(LC_CTYPE, "ukr");
+#define РѕСЃРЅРѕРІРЅРёР№ main
+#define Р°СЃРµРјР±Р»РµСЂ asm
+#define СЃР°Р»Рѕ ;
 
-#define та and
-#define та_рівно and_eq
-#define не not
-#define не_рівно not_eq
-#define біт_виняткабо xor
-#define біт_виняткабо_рівно xor_eq
-#define біт_та bitand
-#define біт_або bitor
-#define біт_інверсія compl
+#define С‚Р° and
+#define С‚Р°_СЂС–РІРЅРѕ and_eq
+#define РЅРµ not
+#define РЅРµ_СЂС–РІРЅРѕ not_eq
+#define Р±С–С‚_РІРёРЅСЏС‚РєР°Р±Рѕ xor
+#define Р±С–С‚_РІРёРЅСЏС‚РєР°Р±Рѕ_СЂС–РІРЅРѕ xor_eq
+#define Р±С–С‚_С‚Р° bitand
+#define Р±С–С‚_Р°Р±Рѕ bitor
+#define Р±С–С‚_С–РЅРІРµСЂСЃС–СЏ compl
 
-#define логічний bool
-#define символ char
-#define символ16 char16_t
-#define символ32 char32_t
+#define Р»РѕРіС–С‡РЅРёР№ bool
+#define СЃРёРјРІРѕР» char
+#define СЃРёРјРІРѕР»16 char16_t
+#define СЃРёРјРІРѕР»32 char32_t
 
-#define цілий int
-#define беззнаковий unsigned
-#define знаковий signed
-#define довгий long
+#define С†С–Р»РёР№ int
+#define Р±РµР·Р·РЅР°РєРѕРІРёР№ unsigned
+#define Р·РЅР°РєРѕРІРёР№ signed
+#define РґРѕРІРіРёР№ long
 
-#define подвійний double
-#define рухомий float
-#define короткий short
+#define РїРѕРґРІС–Р№РЅРёР№ double
+#define СЂСѓС…РѕРјРёР№ float
+#define РєРѕСЂРѕС‚РєРёР№ short
 
-#define унія union
-#define клас class
-#define структура struct
-#define перелік enum
+#define СѓРЅС–СЏ union
+#define РєР»Р°СЃ class
+#define СЃС‚СЂСѓРєС‚СѓСЂР° struct
+#define РїРµСЂРµР»С–Рє enum
 
-#define цей this
-#define новий new
-#define нічого void
-#define закритий private
-#define відкритий public
-#define захищений protected
-#define уявний virtual
-#define змінний mutable
-#define хибний false
-#define істинний true
+#define С†РµР№ this
+#define РЅРѕРІРёР№ new
+#define РЅС–С‡РѕРіРѕ void
+#define Р·Р°РєСЂРёС‚РёР№ private
+#define РІС–РґРєСЂРёС‚РёР№ public
+#define Р·Р°С…РёС‰РµРЅРёР№ protected
+#define СѓСЏРІРЅРёР№ virtual
+#define Р·РјС–РЅРЅРёР№ mutable
+#define С…РёР±РЅРёР№ false
+#define С–СЃС‚РёРЅРЅРёР№ true
 
-#define зовнішній extern
-#define нульвказ nullptr
-#define тип auto
-#define непостійний volatile
-#define оператор operator
-#define видалити delete
-#define постійний const
-#define вбудований inline
-#define дружній friend
+#define Р·РѕРІРЅС–С€РЅС–Р№ extern
+#define РЅСѓР»СЊРІРєР°Р· nullptr
+#define С‚РёРї auto
+#define РЅРµРїРѕСЃС‚С–Р№РЅРёР№ volatile
+#define РѕРїРµСЂР°С‚РѕСЂ operator
+#define РІРёРґР°Р»РёС‚Рё delete
+#define РїРѕСЃС‚С–Р№РЅРёР№ const
+#define РІР±СѓРґРѕРІР°РЅРёР№ inline
+#define РґСЂСѓР¶РЅС–Р№ friend
 
-#define імя_типу typename
-#define визн_типу typedef
-#define ідент_типу typeid
+#define С–РјСЏ_С‚РёРїСѓ typename
+#define РІРёР·РЅ_С‚РёРїСѓ typedef
+#define С–РґРµРЅС‚_С‚РёРїСѓ typeid
 
-#define розмір sizeof
-#define явний explicit
+#define СЂРѕР·РјС–СЂ sizeof
+#define СЏРІРЅРёР№ explicit
 
-#define шаблон template
-#define простір_імен namespace
+#define С€Р°Р±Р»РѕРЅ template
+#define РїСЂРѕСЃС‚С–СЂ_С–РјРµРЅ namespace
 
-#define використовувати using
+#define РІРёРєРѕСЂРёСЃС‚РѕРІСѓРІР°С‚Рё using
 
-#define експорт export
-#define постійн_вираз constexpr
-#define без_вийняток noexcept
+#define РµРєСЃРїРѕСЂС‚ export
+#define РїРѕСЃС‚С–Р№РЅ_РІРёСЂР°Р· constexpr
+#define Р±РµР·_РІРёР№РЅСЏС‚РѕРє noexcept
 
-#define протягом for
-#define спробувати try
-#define перейти goto
-#define випадок case
-#define робити do
-#define поки while
-#define повернути return
-#define якщо if
-#define інакше else
-#define зупинити break;
-#define продовжити continue;
-#define викинути throw
-#define перемикач switch
-#define піймати catch
-#define зазамовч default
+#define РїСЂРѕС‚СЏРіРѕРј for
+#define СЃРїСЂРѕР±СѓРІР°С‚Рё try
+#define РїРµСЂРµР№С‚Рё goto
+#define РІРёРїР°РґРѕРє case
+#define СЂРѕР±РёС‚Рё do
+#define РїРѕРєРё while
+#define РїРѕРІРµСЂРЅСѓС‚Рё return
+#define СЏРєС‰Рѕ if
+#define С–РЅР°РєС€Рµ else
+#define Р·СѓРїРёРЅРёС‚Рё break;
+#define РїСЂРѕРґРѕРІР¶РёС‚Рё continue;
+#define РІРёРєРёРЅСѓС‚Рё throw
+#define РїРµСЂРµРјРёРєР°С‡ switch
+#define РїС–Р№РјР°С‚Рё catch
+#define Р·Р°Р·Р°РјРѕРІС‡ default
 
 
 #include <iostream>
-#define стнд std
-#define строка std::string
-#define вивід std::cout
-#define ввід std::cin
-#define кін_стр std::endl
+#define СЃС‚РЅРґ std
+#define СЃС‚СЂРѕРєР° std::string
+#define РІРёРІС–Рґ std::cout
+#define РІРІС–Рґ std::cin
+#define РєС–РЅ_СЃС‚СЂ std::endl
