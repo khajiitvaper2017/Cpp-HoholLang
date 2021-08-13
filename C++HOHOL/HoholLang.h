@@ -1,5 +1,6 @@
 ﻿#pragma once
-#define яхохол setlocale(LC_CTYPE, "ukr");
+#include <Windows.h>
+#define яхохол {SetConsoleCP(1251);SetConsoleOutputCP(1251);}
 #define основний main
 #define асемблер asm
 #define сало ;
