@@ -23,6 +23,7 @@
 #define беззнаковий unsigned
 #define знаковий signed
 #define довгий long
+
 #define подвійний double
 #define рухомий float
 #define короткий short
